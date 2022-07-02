@@ -13,7 +13,7 @@ putchar((i % 10) + '0');
 if (i != 19)
 {
 putchar(',');
-puchar(' ');
+putchar(' ');
 }
 }
 putchar('\n');
