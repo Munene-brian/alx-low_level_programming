@@ -3,9 +3,13 @@
 /**
  * _isupper - checkes uppercase
  * @c: the chacter
- * Return: 1 if c is uppercase, 0 otherwise
+ * Return: success
  */
 int _isupper(int c)
 {
+if (c >= 'A' && c <= 'Z')
+	return (0);
+
+
 return (c >= 'A' && c <= 'Z');
 }
