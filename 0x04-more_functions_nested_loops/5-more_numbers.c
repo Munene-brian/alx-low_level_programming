@@ -3,6 +3,7 @@
 /**
  * more_numbers - prints 10 time the numbers, from 1 - 0
  *
+ * Return: returns none
  */
 void more_numbers(void)
 {
@@ -14,7 +15,7 @@ for (j = 0; j < 15; j++)
 {
 if (j >= 10)
 	_putchar(j / 10 + '0');
-_putchar('\n');
+_putchar(j % 10 + '0');
 }
 _putchar('\n');
 }
