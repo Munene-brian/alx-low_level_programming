@@ -18,5 +18,5 @@ if (*(src + i) == '\0')
 	break;
 i++;
 }
-return (i);
+return (dest);
 }
